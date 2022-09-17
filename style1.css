@@ -1,0 +1,333 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:'poppins',sans-serif;
+    
+         
+}
+
+/* CSS Variables */
+:root{
+    --navabar-height :50px;
+}
+/* NavigationBar{ */
+    #navbar{
+        position: sticky;
+        display: flex;
+        align-items:center;
+        background-color: black;
+        /* border-radius: 12px; */
+        /* opacity: .9; */
+        /* margin: 15px 15px; */
+        
+        
+    }
+
+
+/*Navigation Bar: logo and image */
+#logo{
+margin:10px,34px;
+color:white;
+font-size: 2.3rem;
+font-weight: bold;
+font-family: 'Mochiy Pop P One', sans-serif;
+padding: 12px;
+padding-left: 15px;
+}
+
+
+
+/*Navigation Bar: list styling*/
+#navbar ul{
+    display: flex;
+}
+
+/*Navigation Bar: list styling*/
+#navbar ul li{
+    display: flex;
+    list-style: none;
+    font-size: 1.3rem;
+    
+
+}
+#navbar ul li a{
+    display: block;
+    padding: 6px 40px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    color:white;
+    
+
+}
+#navbar ul li a:hover{
+    background-color: white;
+    border-radius: 7px;
+    color: black;
+    
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    justify-content: flex-start;
+    /* margin-top: 50px; */
+    align-items: center;
+    height: 20.3rem;
+}
+.heading::before{
+    content: "";
+    position: absolute;
+    /* margin-top: 15px; */
+    background: url(bgayush.jpg)no-repeat center center/cover;
+    height: 80%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+    top: 65px;
+}
+
+
+.heading h1{
+    margin-top: 120px;
+    color: #0f4675;
+    font-size: 3.3rem;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+
+.wholecont{ 
+    margin-top: 80px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(#0f4675,#0f4675 50%,#fff 50%,rgb(241, 237, 237) 100%);
+}
+
+
+.container{
+    padding: 40px 0px;
+    background: #f1f1f1;
+    color: #434343;
+    text-align: center;
+    margin: 80px;
+  }
+ 
+  .test{
+      text-align: center;
+      color: #fff;
+  }
+  .name h3{
+      color:#0f4675 ;
+  }
+
+  
+  .brainstorm {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 300px;
+    gap: 1px;
+  
+  }
+  .ass{
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-family: "Heebo", sans-serif;
+    text-align: center;
+    border-radius: 3px;
+    background: #eeeeee;
+    transition:  0.1s;
+    
+  }
+  .ass:hover{
+    background-color: #b6aeae;
+  }
+  .anchor{
+    text-decoration: none;
+    color: black;
+  }
+  .inner{
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+  }
+  
+  .border{
+    width: 160px;
+    height: 5px;
+    background:#1a6db6;
+    margin: 26px auto;
+  }
+  
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .col{
+    flex: 33.33%;
+    max-width: 25%;
+    box-sizing: border-box;
+    padding: 15px;
+    
+  }
+  .testimonial{
+    background: #fff;
+    padding: 30px;
+    border-bottom: 10px solid #0f4675;
+   
+  }
+  .testimonial:hover  {
+    
+    background-color: #4381b8;
+  }
+  
+  .testimonial img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  .name{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 20px 0;
+  }
+  .stars{
+    color:#1a6db6;
+    margin-bottom: 20px;
+  }
+  
+  
+  @media screen and (max-width:960px) {
+  .col{
+    flex: 100%;
+    max-width: 80%;
+  }
+  }
+  
+  @media screen and (max-width:600px) {
+  .col{
+    flex: 100%;
+    max-width: 100%;
+  }
+  }
+
+  @import url('https://fonts.googleapis.com/css?family=Allura|Josefin+Sans');
+
+.outteam{
+  background-color: #ccc;
+}
+
+.ourteam{
+  
+  width: 90%;
+  margin-left: 65px;
+  background: #1a6db6;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.wrapper{
+  margin-top: 10%;
+}
+
+.wrapper h1{
+  font-family: 'Allura', cursive;
+  font-size: 52px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.team{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.team .team_member{
+  background: #fff;
+  margin: 5px;
+  margin-bottom: 50px;
+  width: 300px;
+  padding: 20px;
+  line-height: 20px;
+  color: #8e8b8b;  
+  position: relative;
+}
+
+.team .team_member h3{
+  color:#0f4675;
+  font-size: 26px;
+  margin-top: 50px;
+}
+
+.team .team_member p.role{
+  color: #ccc;
+  margin: 12px 0;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.team .team_member .team_img{
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.team .team_member .team_img img{
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+}
+
+  .foot{
+    height: 100%;
+    width: 100%;
+    margin-top: 20px;
+    background-color: rgb(48, 43, 43);
+
+}
+.foot ul{
+    margin-left:50px;
+    
+
+}
+.foot ul li{
+    padding-top: 15px;
+    margin: 12px;
+    padding: 8px;
+    font-weight: 2.3rem
+} 
+.foot ul li a{
+    
+    
+    text-decoration: none;
+    color: white;
+    list-style: none;
+    
+}
+.foot ul li a:hover{
+    color: rgb(226, 211, 211);
+}
+.foot h1{
+    padding: 25px;
+    color: white;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+.foot p{
+    margin-bottom: 0px;
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+  
